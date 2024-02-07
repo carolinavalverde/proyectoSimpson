@@ -15,6 +15,12 @@ const App = () => {
         "https://pm1.aminoapps.com/6678/6f4557012b49f1c447ebe5a47d6248854da8152b_00.jpg",
       frase: "¡Ay, caramba!",
     },
+    {
+      personaje: "Lisa Simpson",
+      imagen:
+        "https://i.pinimg.com/474x/57/59/28/575928a72613c7d4a4e751c315b28888.jpg",
+      frase: "¡Todo el maldito sistema está mal!",
+    },
   ];
 
   const [indiceFrase, setIndiceFrase] = useState(0);
