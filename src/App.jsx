@@ -38,7 +38,7 @@ const App = () => {
         personaje={frasesSimpsons[indiceFrase].personaje}
         imagen={frasesSimpsons[indiceFrase].imagen}
       />
-      <button className="btn btn-warning p-3" onClick={cambiarFrase}>
+      <button className="btn btn-warning p-3 my-3" onClick={cambiarFrase}>
         Obtener Frase
       </button>
     </section>
