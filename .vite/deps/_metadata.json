@@ -1,25 +1,43 @@
 {
-  "hash": "0e3206a7",
+  "hash": "30cf5059",
   "configHash": "bf5b8214",
-  "lockfileHash": "9e3a2222",
-  "browserHash": "4017585c",
+  "lockfileHash": "8ee5d234",
+  "browserHash": "4d5304a6",
   "optimized": {
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "8f2c8737",
+      "fileHash": "1667f6ba",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "fb2a251d",
+      "fileHash": "987a44d4",
       "needsInterop": true
+    },
+    "bootstrap": {
+      "src": "../../node_modules/bootstrap/dist/js/bootstrap.esm.js",
+      "file": "bootstrap.js",
+      "fileHash": "6e2f9d13",
+      "needsInterop": false
+    },
+    "bootstrap/": {
+      "src": "../../node_modules/bootstrap/dist/js/bootstrap.esm.js",
+      "file": "bootstrap_.js",
+      "fileHash": "9af76c2c",
+      "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-XFZ2DVVZ": {
-      "file": "chunk-XFZ2DVVZ.js"
+    "chunk-7VNOU2QA": {
+      "file": "chunk-7VNOU2QA.js"
+    },
+    "chunk-IMITH7GT": {
+      "file": "chunk-IMITH7GT.js"
+    },
+    "chunk-P2LSHJDD": {
+      "file": "chunk-P2LSHJDD.js"
     }
   }
 }

@@ -1,14 +1,9 @@
-import { useState } from 'react'
-import './App.css'
+//import { useState } from 'react'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 function App() {
- 
-
-  return (
-    <>
-      
-    </>
-  )
+  return <h1 className="text-center">Los Simpson</h1>;
 }
 
-export default App
+export default App;
