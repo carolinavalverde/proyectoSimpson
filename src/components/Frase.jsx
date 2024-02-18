@@ -1,19 +1,28 @@
-import React from "react";
+import { Card } from "react-bootstrap";
 
-const Frase = ({ frase, personaje, imagen }) => {
+const Frase = ({ personajeProps }) => {
   return (
-    <section className="container">
-      <div className="card">
-        <h1 className="card-title">{personaje}</h1>
-        <img
-          src={imagen}
-          alt={personaje}
-          className="img-fluid w-100 h-50 rounded"
-        />
-        <div className="card-text bg-light text-bg-light text-center my-4">
-          <p className="fw-bold display-5 p-3">{frase}</p>
-        </div>
-      </div>
+    <section className="my-5">
+      <h2>{personajeProps.character}</h2>
+      <hr />
+      <img
+        className="mb-3"
+        src={personajeProps.image}
+        alt={personajeProps.character}
+      />
+      <Card>
+        <Card.Body>
+          <figure>
+            <blockquote className="blockquote">
+              <p>{personajeProps.quote}</p>
+            </blockquote>
+            <figcaption className="blockquote-footer">
+              "{personajeProps.character}" in{" "}
+              <cite title="Source Title">The simpsons</cite>
+            </figcaption>
+          </figure>
+        </Card.Body>
+      </Card>
     </section>
   );
 };
