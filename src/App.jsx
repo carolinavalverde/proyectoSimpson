@@ -25,6 +25,9 @@ function App() {
     } catch (error) {
       console.log(error);
       //agregar algun mensaje para el usuario final, que mencione intentar mas adelante
+      <div className="container text-center">
+        <p>En éste momento no podemos procesar su solicitud, intentelo más tarde.</p>
+      </div>
     }
   };
 
